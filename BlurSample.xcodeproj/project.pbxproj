@@ -12,6 +12,7 @@
 		C36F05402BB81BB4002494E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36F053F2BB81BB4002494E2 /* Assets.xcassets */; };
 		C36F05432BB81BB4002494E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36F05422BB81BB4002494E2 /* Preview Assets.xcassets */; };
 		C36F054A2BB81D48002494E2 /* rgb.json in Resources */ = {isa = PBXBuildFile; fileRef = C36F05492BB81D48002494E2 /* rgb.json */; };
+		C3A793382DA7F701000477E0 /* SymbolAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A793372DA7F701000477E0 /* SymbolAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C36F053F2BB81BB4002494E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36F05422BB81BB4002494E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C36F05492BB81D48002494E2 /* rgb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rgb.json; sourceTree = "<group>"; };
+		C3A793372DA7F701000477E0 /* SymbolAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C36F053D2BB81BB3002494E2 /* ContentView.swift */,
 				C36F053F2BB81BB4002494E2 /* Assets.xcassets */,
 				C36F05412BB81BB4002494E2 /* Preview Content */,
+				C3A793372DA7F701000477E0 /* SymbolAnimation.swift */,
 			);
 			path = BlurSample;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A793382DA7F701000477E0 /* SymbolAnimation.swift in Sources */,
 				C36F053E2BB81BB3002494E2 /* ContentView.swift in Sources */,
 				C36F053C2BB81BB3002494E2 /* BlurSampleApp.swift in Sources */,
 			);
